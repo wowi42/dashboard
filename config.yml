@@ -2,8 +2,8 @@
 # Homepage configuration
 # See https://fontawesome.com/v5/search for icons options
 
-title: "Demo dashboard"
-subtitle: "Homer"
+title: "Dashboard"
+subtitle: "wowi42"
 logo: "logo.png"
 # icon: "fas fa-skull-crossbones" # Optional icon
 
@@ -41,12 +41,12 @@ colors:
     link-hover: "#ffdd57"
 
 # Optional message
-message:
+#message:
   #url: https://b4bz.io
-  style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
-  title: "Demo !"
-  icon: "fa fa-grin"
-  content: "This is a dummy homepage demo. <br /> Find more information on <a href='https://github.com/bastienwirtz/homer'>github.com/bastienwirtz/homer</a>"
+#  style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
+#  title: "Demo !"
+#  icon: "fa fa-grin"
+#  content: "This is a dummy homepage demo. <br /> Find more information on <a href='https://github.com/bastienwirtz/homer'>github.com/bastienwirtz/homer</a>"
 
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
@@ -68,18 +68,55 @@ links:
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
-  - name: "Applications"
+  - name: "Kalvad"
     icon: "fas fa-cloud"
     items:
-      - name: "Awesome app"
-        logo: "assets/tools/sample.png"
-        subtitle: "Bookmark example"
-        tag: "app"
-        keywords: "self hosted reddit"
-        url: "https://www.reddit.com/r/selfhosted/"
+      - name: "FRP"
+        icon: "fas fa-book"
+        keywords: "frp proxy tunnel"
+        url: "https://frp.dxb.kalvad.com/static/#/"
         target: "_blank" # optional html a tag target attribute
-      - name: "Another one"
-        logo: "assets/tools/sample2.png"
-        subtitle: "Another application"
-        tag: "app"
-        url: "#"
+      - name: "Garage"
+        logo: "assets/tools/garage-logo.svg"
+        url: "https://s3.kalvad.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Glitchtip"
+        logo: "assets/tools/glitchtip.png"
+        url: "https://error.kalvad.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Grafana"
+        logo: "assets/tools/grafana.png"
+        url: "https://grafana.kalvad.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "HAProxy"
+        logo: "assets/tools/haproxy.png"
+        url: "https://taiga.kalvad.com/haproxy/stats"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Uptime Kuma"
+        logo: "assets/tools/uptime-kuma.svg"
+        url: "https://status.kalvad.com/dashboard"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Mimir"
+        logo: "assets/tools/mimir.svg"
+        url: "http://10.1.10.18:9009"
+        target: "_blank" # optional html a tag target attribute
+      - name: "OpenWRT"
+        logo: "assets/tools/openwrt.png"
+        url: "https://10.0.10.1:8443/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Pi-Hole"
+        logo: "assets/tools/pi-hole.svg"
+        url: "http://10.1.10.13/admin/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "QuickWit"
+        logo: "assets/tools/quickwit.jpg"
+        url: "http://10.1.10.22:7280"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Taiga"
+        logo: "assets/tools/taiga.png"
+        url: "https://taiga.kalvad.com"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Xen Orchestra"
+        logo: "assets/tools/xo.png"
+        url: "https://xo.dxb.kalvad.com"
+        target: "_blank" # optional html a tag target attribute
